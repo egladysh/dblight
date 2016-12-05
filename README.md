@@ -18,6 +18,8 @@ If you are curious, the -no_static option will create static libraries, +univers
 If you don't have cmake, on OSX do<br />
 $ sudo port cmake
 
+A few lines cmake script can be found in sample/CMakeLists.txt.
+
 Create a build folder, for example <br />
 $ mkdir ~/build
 
