@@ -16,7 +16,7 @@ $ sudo port install boost +universal -no_static
 If you are curious, the -no_static option will create static libraries, +universal is of course optional. Macports puts the boost headers into opt/local/include and libraries, opt/local/lib.
 
 If you don't have cmake, on OSX do<br />
-$ sudo port cmake
+$ sudo port install cmake
 
 A few lines cmake script can be found in sample/CMakeLists.txt.
 
